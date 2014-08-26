@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SoundCloud</string>
+    <string name="username_label">username</string>
+  	<string name="country_label">country</string>
+  	<string name="city_label">city</string>
+  	<string name="url_label">url</string>
+  	<string name="tracks_label">tracks</string>
+  	<string name="playlists_label">playlists</string>
+  	<string name="likes_label">likes</string>
+  	<string name="online_label">online</string>
+  	<string name="favorites_section">Favorites</string>
+  	<string name="account_section">Account</string>
+  	<string name="not_online_now">is not online now</string>
+	<string name="online_now">is online now!</string>
+	<string name="loading_spinner_title">Loading..</string>
+	<string name="loading_spinner_text">We are loading your data, please wait..</string>
+	<string name="not_available">N/A</string>
+	<string name="no_connectivity_error_msg">You have no connectivity, please check your network settings</string>
+	<string name="connection_error_msg">An error occurred connecting the service.</string>
+	<string name="format_error_msg">An error occurred reading your data.</string>
+	<string name="internal_error_msg">An internal error occurred while fetching your data.</string>
+	<string name="we_ll_try_again_soon">We\'ll try again soon..</string>
+</resources>

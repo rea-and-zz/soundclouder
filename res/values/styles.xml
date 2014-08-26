@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+  	<style name="FavPageMainLabel" parent="@android:style/TextAppearance.Medium">
+       	<item name="android:textSize">18sp</item>
+    </style>
+    
+    <style name="FavPageDetailLabel" parent="@android:style/TextAppearance.Medium">
+       	<item name="android:textColor">@color/gray</item>   
+       	<item name="android:textSize">13sp</item>
+    </style>
+    
+  	<style name="UserPageUsername" parent="@android:style/TextAppearance.Medium">
+       	<item name="android:textSize">36sp</item>
+    </style>
+    
+  	<style name="UserPageDetailLabel" parent="@android:style/TextAppearance.Medium">
+       	<item name="android:textColor">@color/gray</item>       	
+       	<item name="android:textSize">15sp</item>
+       	<item name="android:textStyle">italic</item>
+    </style>
+    
+  	<style name="UserPageDetailValue" parent="@android:style/TextAppearance.Medium">
+       	<item name="android:textSize">15sp</item>
+    </style>
+    
+  	<style name="UserPageDetailOnlineValue" parent="@style/UserPageDetailValue">
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+</resources>

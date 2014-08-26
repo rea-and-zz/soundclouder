@@ -1,0 +1,135 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:paddingTop="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+       
+        <TextView
+            android:id="@+id/userNameValue"
+            android:paddingTop="20dp"
+            android:paddingBottom="40dp"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_gravity="left"
+            style="@style/UserPageUsername"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/coutryLabel"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_gravity="left"
+            style="@style/UserPageDetailLabel"
+            android:text="@string/country_label" />
+        
+    	<TextView
+            android:id="@+id/countryValue"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:layout_gravity="left"
+            style="@style/UserPageDetailValue"
+            android:text="" />
+    	
+   		<TextView
+            android:id="@+id/cityLabel"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:layout_gravity="left"
+            style="@style/UserPageDetailLabel"
+            android:text="@string/city_label" />
+        
+    	<TextView
+            android:id="@+id/cityValue"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:layout_gravity="left"
+            style="@style/UserPageDetailValue"
+            android:text="" />
+    	
+  		<TextView
+            android:id="@+id/urlLabel"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:layout_gravity="left"
+            style="@style/UserPageDetailLabel"
+            android:text="@string/url_label" />
+        
+    	<TextView
+            android:id="@+id/urlValue"
+            android:layout_column="1"
+           	android:layout_row="3"
+            android:layout_gravity="left"
+            android:autoLink="web"
+            style="@style/UserPageDetailValue"
+            android:text="" />
+    	
+   		<TextView
+            android:id="@+id/userTracksLabel"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:layout_gravity="left"
+           	style="@style/UserPageDetailLabel"
+            android:text="@string/tracks_label" />
+
+        <TextView
+            android:id="@+id/userTracksValue"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:layout_gravity="left"
+            style="@style/UserPageDetailValue"
+            android:text="" />
+    	
+   		<TextView
+            android:id="@+id/userPlayLitsCountLabel"
+            android:layout_column="0"
+            android:layout_row="5"
+            android:layout_gravity="left"        
+           	style="@style/UserPageDetailLabel"
+            android:text="@string/playlists_label" />
+
+        <TextView
+            android:id="@+id/userPlayLitsCountValue"
+            android:layout_column="1"
+            android:layout_row="5"
+            android:layout_gravity="left"
+            style="@style/UserPageDetailValue"
+            android:text="" />
+        
+      	<TextView
+            android:id="@+id/userFavoritesCountLabel"
+            android:layout_column="0"
+            android:layout_gravity="left"
+            android:layout_row="6"
+          	style="@style/UserPageDetailLabel"
+            android:text="@string/likes_label" />
+
+        <TextView
+            android:id="@+id/userFavoritesCountValue"
+            android:layout_column="1"
+            android:layout_row="6"
+            android:layout_gravity="left"
+            style="@style/UserPageDetailValue"
+            android:text="" />
+        
+       	<TextView
+            android:id="@+id/userIsOnlineLabel"
+            android:paddingTop="20dp"
+            android:layout_column="0"
+            android:layout_row="7"
+            android:layout_gravity="left"
+            style="@style/UserPageDetailLabel"
+            android:text="@string/online_label" />
+
+        <TextView
+            android:id="@+id/userIsOnlineValue"
+            android:layout_column="1"
+            android:layout_row="7"
+            android:layout_gravity="left"
+            style="@style/UserPageDetailOnlineValue"
+            android:text="" />
+ 
+    </GridLayout>

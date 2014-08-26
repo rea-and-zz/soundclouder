@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/titleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/FavPageMainLabel">
+    </TextView>
+    
+   	<TextView
+        android:id="@+id/authorLabel"
+        android:paddingLeft="6dp"
+       	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		style="@style/FavPageDetailLabel">
+    </TextView>
+    
+    <TextView
+        android:id="@+id/genreLabel"
+        android:paddingLeft="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		style="@style/FavPageDetailLabel">
+    </TextView>
+    	
+    <TextView
+        android:id="@+id/countsLabel"
+       	android:paddingLeft="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/FavPageDetailLabel">
+    </TextView>
+
+</LinearLayout> 
